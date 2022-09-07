@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Creating Responsive Web Sites " />
-    <meta name="keywords" content="HTML, CSS, Responsive Resume Templates" />
-    <meta name="author" content="Mark Kulishov" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creating Responsive Web Sites ">
+    <meta name="keywords" content="HTML, CSS, Responsive Resume Templates">
+    <meta name="author" content="Mark Kulishov">
 
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Mark Kulishov Front End Developer</title>
 </head>
 <body>
@@ -20,17 +20,16 @@
             <section class="profile">
                 <div class="profile-bg">
                     <div class="profile-img">
-                        <img src="img/profile.jpg" alt="profile image" />
+                        <img src="img/profile.jpg" alt="profile image">
                     </div>
                     <div class="profile-name">
                         <h1>Mark Kulishov</h1>
                         <h4>Freelancer Front End Developer</h4>
                         <nav class="sosial-links">
-                            <a href="https://www.linkedin.com/in/mark-kulishov-85140b1b5/" target="_blank">
+                            <a href="https://www.linkedin.com/in/mark-kulishov-85140b1b5/" target="_blank" title="linkedin">
                                 <i class="fab fa-linkedin"></i>
                             </a>
-                            <a href="https://github.com/MarkKulUa" target="_blank"><i class="fab fa-github-square"></i></a>
-                            <a href="elvinyeka@gmail.com"><i class="fas fa-envelope"></i></a>
+                            <a href="https://github.com/MarkKulUa" target="_blank" title="github"><i class="fab fa-github-square"></i></a>
                         </nav>
                     </div>
                 </div>
@@ -103,14 +102,14 @@
                     <h2 class="title">Code example</h2>
                     <pre>
                             <code>
-                                <span style="color: blue;">function</span> <span class="func">deepCount</span>(a){
-                                  <span style="color: blue;">return</span> a.reduce((previousValue, currentValue) => {
+                                <span class="color-blue">function</span> <span class="func">deepCount</span>(a){
+                                  <span class="color-blue">return</span> a.reduce((previousValue, currentValue) =&gt; {
                                       return previousValue + (Array.isArray(currentValue) ? deepCount(currentValue) : 0);
                                    }, a.length);
                                 }
                                 <span class="func">console</span>.<span class="if">log</span>(deepCount([1, 2, [3, 4, [5]]]));
                             </code>
-                        <span style="color: blue;"><a href="https://www.codewars.com/users/MarkKulUa/completed_solutions" target="_blank">CodeWars Solutions</a></span>
+                        <span class="color-blue"><a href="https://www.codewars.com/users/MarkKulUa/completed_solutions" target="_blank" title="codewars">CodeWars Solutions</a></span>
                           </pre>
                 </div>
             </section>
@@ -206,7 +205,11 @@
                         <div class="card-body">
                             <div class="edu-head">English <span class="text-small">[Intermediate]</span></div>
                             <div class="mb-1">
-                                <span style="color: blue;"><a href="https://examinator.epam.com/Main/PersonalAssignments/462099" target="_blank">EPAM English test result:</a></span>
+                                <span class="color-blue">
+                                    <a href="https://examinator.epam.com/Main/PersonalAssignments/462099" target="_blank" title="examinator">
+                                        EPAM English test result:
+                                    </a>
+                                </span>
                                 <span class="bold">B1</span>
                             </div>
                         </div>

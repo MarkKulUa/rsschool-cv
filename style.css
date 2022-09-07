@@ -436,6 +436,10 @@ pre {
     font-weight: 900;
 }
 
+.color-blue {
+    color: blue;
+}
+
 @media only screen and (max-width: 1024px) {
     .container {
         width: 90%;
