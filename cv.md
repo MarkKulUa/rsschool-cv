@@ -48,8 +48,9 @@ _A project for working with pledged and confiscated real estate_
 
 # Languages
 
-- Ukrainian
-- Russian
-- English 
+- Ukrainian - Native
+- Russian - Native
+- Polish - A1
+- English - Intermediate
 >  [EPAM English test result](https://examinator.epam.com/Main/PersonalAssignments/462099): **B1**<br>
 
