@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Creating Responsive Web Sites " />
+    <meta name="keywords" content="HTML, CSS, Responsive Resume Templates" />
+    <meta name="author" content="Mark Kulishov" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>Mark Kulishov Front End Developer</title>
+</head>
+<body>
+<main class="page-content">
+    <div class="container">
+        <div class="cover">
+            <!-- PROFILE -->
+            <section class="profile">
+                <div class="profile-bg">
+                    <div class="profile-img">
+                        <img src="img/profile.jpg" alt="profile image" />
+                    </div>
+                    <div class="profile-name">
+                        <h1>Mark Kulishov</h1>
+                        <h4>Freelancer Front End Developer</h4>
+                        <nav class="sosial-links">
+                            <a href="https://www.linkedin.com/in/mark-kulishov-85140b1b5/" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/MarkKulUa" target="_blank"><i class="fab fa-github-square"></i></a>
+                            <a href="elvinyeka@gmail.com"><i class="fas fa-envelope"></i></a>
+                        </nav>
+                    </div>
+                </div>
+            </section>
+
+            <!--ABOUT -->
+            <section class="about section">
+                <div class="about__summary">
+                    <h2 class="title">Summary</h2>
+                    <p>
+                        I'm currently working wit several small web projects as back-end dev.
+                        My goal is to become React Js Dev.
+                        I love to code and coffee. I am a Good team-player, and I like share my ideas and experience with the teammates.
+                    </p>
+                </div>
+                <div class="about__info">
+                    <ul class="about__info-items">
+                        <li class="about__info-item--right">Age</li>
+                        <li class="about__info-item">38</li>
+                        <li class="about__info-item--right">Phone</li>
+                        <li class="about__info-item">+380 (97) 550-99-54</li>
+                        <li class="about__info-item--right">Address</li>
+                        <li class="about__info-item">G.Mazurenko st. Dnipro, Ukraine</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- SKILLS -->
+            <section class="skills section" id="skills">
+                <div class="skills__header">
+                    <h2 class="title">Professional Skills</h2>
+                </div>
+                <ul class="skills__items">
+                    <li class="skills__item">
+                        <i class="fab fa-html5"></i>
+                        <a><span>HTML</span> (Semantic, Accessibility)</a>
+                    </li>
+                    <li class="skills__item">
+                        <i class="fab fa-css3-alt"></i>
+                        <a><span>CSS</span> (Bootstrap)</a>
+                    </li>
+                    <li class="skills__item">
+                        <i class="fab fa-js-square"></i>
+                        <a><span>JavaScript</span> (Fundamentals,Functional Programming,
+                            OOP, Asynchronous JavaScript, ES6+,DOM)</a>
+                    </li>
+                    <li class="skills__item">
+                        <i class="fab fa-git-alt"></i>
+                        <a>Version control:<span>Git</span></a>
+                        <i class="fab fa-github"></i>
+                        <a><span>GitHub</span></a>
+                    </li>
+                    <li class="skills__item">
+                        <i class="fab fa-gulp"></i>
+                        <a>Module Bundlers:</a>
+                        <span>Gulp, Webpack</span>
+                    </li>
+                    <li class="skills__item">
+                        <i class="fab fa-windows"></i>
+                        <a><span>Windows</span>,</a>
+                        <i class="fab fa-ubuntu"></i>
+                        <a><span>Linux</span> (Ubuntu)</a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- CODE -->
+            <section class="code section">
+                <div class="code__inner">
+                    <h2 class="title">Code example</h2>
+                    <pre>
+                            <code>
+                                <span style="color: blue;">function</span> <span class="func">deepCount</span>(a){
+                                  <span style="color: blue;">return</span> a.reduce((previousValue, currentValue) => {
+                                      return previousValue + (Array.isArray(currentValue) ? deepCount(currentValue) : 0);
+                                   }, a.length);
+                                }
+                                <span class="func">console</span>.<span class="if">log</span>(deepCount([1, 2, [3, 4, [5]]]));
+                            </code>
+                        <span style="color: blue;"><a href="https://www.codewars.com/users/MarkKulUa/completed_solutions" target="_blank">CodeWars Solutions</a></span>
+                          </pre>
+                </div>
+            </section>
+
+            <!-- EDUCATION -->
+            <section class="edu section" id="education">
+                <div class="edu__inner">
+                    <h2 class="title">Education</h2>
+                </div>
+                <div class="edu__timeline">
+                    <div class="edu__timeline-card card-success">
+                        <div class="card-body">
+                            <div class="edu-head">
+                                National Mining University
+                                <span class="text-small">Engineer. Dnipo, Ukraine</span>
+                            </div>
+                            <div class="edu-time">2001 - 2006</div>
+                            <div>Faculty of Information Technology.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="edu__timeline">
+                    <div class="edu__timeline-card card-success">
+                        <div class="card-body">
+                            <div class="edu-head">SoftServe University</div>
+                            <div>
+                                JavaScript + BackBoneJs courses.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="edu__timeline">
+                    <div class="edu__timeline-card card-success">
+                        <div class="card-body">
+                            <div class="edu-head">IMT Academy</div>
+                            <div>
+                                Course "Contextual advertising specialist".
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- EXPERIENCE -->
+            <section class="edu section" id="experience">
+                <div class="edu__inner">
+                    <h2 class="title">Experience</h2>
+                </div>
+                <div class="edu__timeline">
+                    <div class="edu__timeline-card card-success">
+                        <div class="card-body">
+                            <div class="edu-head">Freelancer (Laravel back-end)</div>
+                            <div class="edu-time">2020 - Present</div>
+                            <div>Different small projects</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="edu__timeline">
+                    <div class="edu__timeline-card card-success">
+                        <div class="card-body">
+                            <div class="edu-head">Large commercial bank</div>
+                            <div class="edu-time">February 2014 - 2020</div>
+                            <div>
+                              Several projects (under NDA)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- LANGUAGE -->
+            <section class="edu section" id="languages">
+                <div class="edu__inner">
+                    <h2 class="title">Languages</h2>
+                </div>
+                <div class="edu__timeline">
+                    <div class="edu__timeline-card card-success">
+                        <div class="card-body">
+                            <div class="edu-head">
+                                Ukrainian <span class="text-small">[Native]</span>
+                            </div>
+                            <div class="edu-head">
+                                Russian <span class="text-small">[Native]</span>
+                            </div>
+                            <div class="edu-head">
+                                Polish <span class="text-small">[Beginner]</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="edu__timeline">
+                    <div class="edu__timeline-card card-success">
+                        <div class="card-body">
+                            <div class="edu-head">English <span class="text-small">[Intermediate]</span></div>
+                            <div class="mb-1">
+                                <span style="color: blue;"><a href="https://examinator.epam.com/Main/PersonalAssignments/462099" target="_blank">EPAM English test result:</a></span>
+                                <span class="bold">B1</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="footer">
+        <div class="container">
+            <div class="footer__links">
+            </div>
+            <div class="author">
+                    &copy; Mark Kulishov
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
