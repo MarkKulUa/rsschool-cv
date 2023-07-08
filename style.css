@@ -414,11 +414,9 @@ pre {
     justify-content: space-between;
     align-items: center;
 }
-.footer__links img {
-    width: 150px;
-}
+
 .footer__links i {
-    font-size: 60px;
+    font-size: 14px;
 }
 .fa-youtube-square {
     color: #ff0000;
@@ -428,16 +426,23 @@ pre {
 }
 
 .author {
-    margin: 20px 0 50px;
     text-align: right;
-    color: #0c2461;
 }
 .author a:hover {
     font-weight: 900;
 }
 
+.fa-github-square{
+    max-height: 12px;
+}
+
 .color-blue {
     color: blue;
+}
+
+.rs-logo {
+    width: 40px;
+    height: 15px;
 }
 
 @media only screen and (max-width: 1024px) {
